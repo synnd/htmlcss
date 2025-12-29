@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 3</title>
+</head>
+<body>
+    <main>
+        <form> 
+            <fieldset>
+                <legend>Thông tin sinh viên</legend>
+            <table border="0" cellpadding="5" cellspacing="0">
+                <tr>
+                    <td><label for ="fullname">Họ và tên</label></td>
+                    <td><input type="text" id="fullname" name="fullname"></td>
+                </tr>
+                <tr>
+                    <td><label for ="email">Email</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for ="dob">Ngày sinh</label></td>
+                    <td><input type="date" id="dob" name="dob"></td>
+                </tr>
+                <tr>
+                    <td><label for ="gender">Giới tính</label></td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Nam</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Nữ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for ="phone">Số điện thoại</label></td>
+                    <td><input type="tel" id="phone" name="phone"></td>
+                </tr>
+                <tr>
+                    <td><label for ="major">Chuyên ngành</label></td>
+                    <td><input type="text" id="major" name="major"></td>
+                </tr>
+                    
+                <tr>
+                    <td><label for ="schoolyear">Nhập năm học</label></td>
+                    <td><input type="text" id="schoolyear" name="schoolyear"></td>
+                </tr>
+                
+                <tr>
+                    <td><label for ="gpa">Điểm GPA</label></td>
+                    <td><input type="text" id="gpa" name="gpa" min="0" max="4"></td>
+                </tr>
+
+                <tr>
+                    <td ><label for ="address">Địa chỉ</label></td>
+                    <td ><input type="text" id="address" name="address"></td>
+                </tr>
+
+                <tr>
+                    <td><label for ="Class">Lớp học</label></td>
+                    <td><input type="number" id="Class" name="Class" min="1" max="12"></td>
+                </tr>
+                <tr>
+                    <td><label for ="regdate">Ngày đăng ký học</label></td>
+                    <td><input type="datetime-local" id="regdate" name="regdate"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="submit" value="Gửi thông tin"></td>
+                </tr>
+            </table>
+
+        </form>
+        </fieldset>
+    </main>
+</body>
+</html>

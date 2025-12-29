@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 2</title>
+</head>
+<body>
+    <main>
+        <h1>Form Đặt mua tài liệu lập trình</h1>
+        <form action="http://www.bai2.com" method="post">
+             <table>
+                <tr>
+                    <td><label for = "document">Chọn tài liệu</label></td>
+                    <td>
+                        <select id="document" name="document">
+                            <option value="htmlcss">Tài liệu môn HTML & CSS</option>
+                            <option value="javascript">Tài liệu môn JavaScript</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for ="quantity">Số lượng</label></td>
+                    <td>
+                        <input type="number" id="quantity" name="quantity" min="1" value="1">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for ="note">Ghi chú</label></td>
+                    <td>
+                        <textarea id="note" name="note" rows="0" cols="50"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="address" >Địa chỉ giao hàng</label></td>
+                    <td>
+                        <textarea id="address" name="address" rows="0" cols="50"></textarea>
+                        <br/>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Đặt mua"></td>
+                    </tr>
+            </table>
+
+        </form>
+    </main>
+</body>
+</html>
