@@ -1,0 +1,82 @@
+/* Reset cơ bản */
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Card */
+.card {
+    width: 320px;
+    background: white;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    border: 15px solid #f2f2f2
+}
+
+/* Attribute selector cho ảnh */
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Text */
+h2 {
+    margin: 10px 0;
+}
+
+.desc {
+    color: #555;
+    font-size: 14px;
+}
+
+/* Skills */
+.skills {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin: 8px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Màu từng skill */
+.skills .html {
+    color: red;
+}
+
+.skills .css {
+    color: blue;
+}
+
+.skills .js {
+    color: red;
+}
+
+/* Hover skill */
+.skills li:hover {
+    font-weight: bold;
+    color: #ff6600;
+    cursor: pointer;
+}
+
+/* Button */
+.follow-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover button */
+.follow-btn:hover {
+    background-color: #ff6600;
+}
