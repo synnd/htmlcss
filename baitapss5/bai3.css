@@ -1,0 +1,17 @@
+body{
+    background-color: azure;
+    text-align: center;
+}
+header >h1{
+    color:blue;
+    line-height:1;
+}
+header>p{
+    line-height:0;
+}
+.p1{ 
+    text-decoration: line-through;
+}
+.p4{
+    letter-spacing: 3px;
+}

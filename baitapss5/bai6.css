@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+h2{
+    font-weight: bold;
+    color:#1e90ff;
+}
+p{
+    font-weight:bold;
+}
+
+header:hover{
+    background-color :#e6f7ff;
+    cursor:pointer;
+}

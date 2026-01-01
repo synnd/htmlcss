@@ -1,0 +1,35 @@
+header{
+  color:aliceblue;
+  text-align: center;
+  background-color:rgb(81, 132, 226);
+
+}
+h2{
+  color:rgb(57, 121, 239);
+}
+p>em{
+  color:rgb(57, 121, 239);
+}
+li {
+  /* Dùng ký tự emoji răng làm dấu đầu dòng */
+  list-style-type: "🦷 "; 
+  cursor: pointer;
+}
+.danh-sach:hover{
+  color:rgb(89, 175, 199);
+}
+
+ a:hover {
+  color:rgb(81, 132, 226);
+} 
+a:active{
+  color:red;
+}
+
+
+footer{
+  color:aliceblue;
+  text-align: center;
+  background-color:rgb(81, 132, 226);
+
+}

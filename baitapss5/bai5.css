@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+}
+
+h1{
+    color:#1e90ff ;
+}
+
+input[ type ="submit"] {
+    background-color: #00bfff;
+}
+input[ type ="text"] {
+    border-color:#1e90ff;
+}
+input[ type ="email"] {
+    border-color:#1e90ff ;
+}
+textarea{
+    border-color:#1e90ff;
+}

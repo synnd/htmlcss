@@ -1,0 +1,65 @@
+/* universal selector */
+*{
+
+}
+/* id selector  */
+   #h2-id {
+       color:brown
+   }
+
+/* class selector  */
+.text-yellow{
+    color: yellow;
+}
+.bg-blue{
+    background-color: blue;
+}
+/* element selector  */
+table,td{
+    border :  red solid 10px ;
+    width: 500px;
+    border-color: aqua;
+
+}
+/* pseudo - class selector  */
+td:hover{
+    background-color:brown;
+    font-size: 100px;
+
+}
+
+/* attribute */
+[href=""]{
+   background-color: aquamarine;
+}
+td:active{
+    font-size: 50px;
+}
+
+tr::nth-child(1){
+    background-color: yellow;
+}
+
+/* combinator */
+ div p { 
+    background-color: aquamarine;
+}
+
+#out-div>p{
+    background-color: pink;
+}
+/* bộ thuộc tính font  */
+p{
+    font-size: 14;
+    font-weight:;
+
+}
+/* bộ thuộc tính text */
+p{
+    text-align: center;
+    text-decoration:aqua;
+    letter-spacing:10cap; 
+}
+h1{
+    color:blue;
+}

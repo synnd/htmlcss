@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-color:rgb(240, 238, 236) ;
+    color:blue;
+}
+
+h2{
+    color:blue}
+.co-so-1{
+    color : red;
+}
+
+.co-so-3{
+    text-decoration: underline;
+}
+.co-so-4{
+    font-weight: bold;
+}
