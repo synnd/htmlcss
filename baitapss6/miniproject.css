@@ -1,0 +1,46 @@
+body{
+    background-color: rgba(239, 242, 241, 0.953);
+}
+
+h1{
+    text-align: center;
+    background-color:#ccffe6;
+    color:#006666;
+}
+.menu{
+    text-align: center;
+    background-color:#e6f7ff ;
+    color:#006699;
+}
+.menu a{
+    color: #006699;           
+    text-decoration: none;     
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;            
+    font-family: "Times New Roman", sans-serif; 
+}
+.menu a:hover{
+    background-color: rgb(40, 145, 205);
+    color:white;
+}
+img{
+    text-align: center;
+}
+h2{
+    color:#006666;
+}
+.gioi-thieu{
+     background-color: white;
+}
+.dich-vu{
+    background-color: white;
+}
+.menu-dich-vu li:hover{
+    background-color: #b4d7e8;
+}
+footer{
+    text-align: center;
+    background-color: #006666;
+    color:white;
+}

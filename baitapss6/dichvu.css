@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(239, 242, 241, 0.953);
+}
+
+h1{
+    text-align: center;
+    background-color:#ccffe6;
+    color:#006666;
+}
+.menu{
+    text-align: center;
+    background-color:#e6f7ff ;
+    color:#006699;
+}
+.menu a{
+    color: #006699;           
+    text-decoration: none;     
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;            
+    font-family: "Times New Roman", sans-serif; 
+}
+.menu a:hover{
+    background-color: rgb(40, 145, 205);
+    color:white;
+}
+
+table th{
+    text-align: center;
+    background-color: rgb(167, 215, 241) ;
+}
+table tr:hover{
+    background-color: rgb(204, 241, 241);
+}
+footer{
+    text-align: center;
+    background-color: #006666;
+    color:white;
+}

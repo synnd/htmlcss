@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    background-color:#ccffe6;
+    color:#006666;
+}
+.menu{
+    text-align: center;
+    background-color:#e6f7ff ;
+    color:#006699;
+}
+.menu a{
+    color: #006699;           
+    text-decoration: none;     
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;            
+    font-family: "Times New Roman", sans-serif; 
+}
+.menu a:hover{
+    background-color: rgb(40, 145, 205);
+    color:white;
+}
+label{
+    color:#006666;
+}
+footer{
+    text-align: center;
+    background-color: #006666;
+    color:white;
+}
+
+form input[type="submit"]{
+    color:white;
+    background-color: #3ee2e2;
+}
+input[type="submit"]:hover{
+    background-color:#006666;
+}
