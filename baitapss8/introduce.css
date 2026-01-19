@@ -34,13 +34,14 @@ header a{
     color:rgb(121, 51, 19);
     font-weight: 600;
     border-radius: 15px;
+    width:95px;
 }
 a:hover{
     color:white;
     background-color: darkred;
     transition: all 0.8s ;
-    transform: translateY(-5px);
-    width:130px;
+    transform: translateY(-3px);
+    width:100px;
 }
 
 img{

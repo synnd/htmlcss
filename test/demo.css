@@ -1,0 +1,152 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header{
+    min-height: 150px;
+    background-color: #0173d9;
+}
+header h1{
+    color:white;
+    padding-top: 24px;
+}
+header nav{
+    padding:24px 0;
+}
+header nav a{
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    background-color: #b8d1e8;
+    padding:12px 16px;
+    margin:20px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-family: 600;
+}
+header nav a:hover{
+    background-color: aliceblue;
+    color:blue;
+    margin:20px;
+    transform: translateY(-5px);
+
+}
+main{
+    min-height: calc()
+}
+.ss1{
+
+    height:400px;
+   background-image: url("https://cdn-media.sforum.vn/storage/app/media/anh-dep-82.jpg");
+    background-position: center;
+    background-size:cover;
+}
+.ss1 div{
+    color:white;
+    height:250px;
+    width:700px;
+    text-align: center;
+    margin:auto;
+    padding-top:50px;
+} 
+.ss1 h2{
+    font-size: 48px;
+    padding:20px;
+    text-shadow: 0 5px 10px rbga(0,0,0,0.8);
+}
+.ss1 p{
+    font-size: 24px;
+}
+.ss1 button {
+    border:none;
+    background-color: white;
+    color:#0173d9;
+    border-radius: 20px;
+    padding:12px 16px;
+    margin:20px;
+    font-weight: 600;
+    box-shadow: 2px 6px 20px rbga(0,0,0,0.8);
+    transform-origin: bottom right;
+
+}
+.ss1 button:hover{
+   transform: rotate(45deg);
+   transition: all 0.5s;
+}
+
+.ss2{
+    height:450px;
+    padding:20px;
+}
+.ss2 h2{
+    font-size: 48px;
+    color:#0173d9;
+    padding-top: 100ox;
+}
+.ss2 p{
+    width:800px;
+    margin:auto;
+    padding:10px;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.bac-si {
+    text-align: center;
+    display:inline-block;
+}
+.bac-si {
+    width: 20%;
+    height:100px;
+    background-color: aqua;
+    margin:20px;
+    border-radius: 20px;
+    padding:20px;
+}
+
+.dich-vu h2{
+    font-size: 48px;
+    color:#0173d9;
+    padding:10px;
+}
+.dich-vu p{
+    padding:10px;
+    font-size: 18px;
+}
+.dich-vu{
+    background-color: aliceblue;
+    padding:20px;
+    margin: 20px;
+}
+table{
+    width:80%;
+    margin:auto;
+    font-size: 24px;
+    border-radius: 20px;
+}
+table tr{
+    height: 50px;
+    background-color:rgb(192, 244, 244);
+}
+table th{
+    background-color: #007be0;
+}
+table th:nth-child(1){
+    background-color: #007be0;
+    border-radius: 20px 0px 0px 0;
+
+}
+table th:nth-child(4){
+    background-color: #007be0;
+    border-radius: 0px 20px 0px 0px;
+
+}
+ 
+footer{
+    min-height:320px ;
+
+}

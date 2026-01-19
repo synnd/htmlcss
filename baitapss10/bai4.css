@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+}
+section{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+div{
+  height: 300px;
+  width:30%;
+}
+img{
+    height: 200px;
+    width:200px;
+    border-radius: 10px;
+}
+
+hr{
+    width:30%;
+    text-align: center;
+    margin:auto;
+}

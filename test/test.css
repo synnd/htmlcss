@@ -1,0 +1,58 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+}
+header  {
+    text-align: center;
+    background-color: aquamarine;
+    margin:0;
+    position: fixed;
+    top:0;
+    width:100%;
+}
+
+header span{
+   display: inline-block;
+   margin:20px;     
+}
+
+header span:hover{
+    background-color: cadetblue;
+    text-decoration:underline;
+    cursor: pointer;
+    margin:10px;
+    padding:10px;
+    border-radius: 10px;
+}
+.anh-1{
+    object-fit: cover;
+    margin:0;
+    width:100%;
+    height:200px;
+}
+h1:hover{
+    color:blue;
+}
+.champions-fc{
+    text-align: center;
+    position: absolute;
+    top:80px;
+    left:120px;
+    right:0;
+
+}
+.anh-2{
+    object-fit: cover;
+    width:500px;
+}
+.anh-3{
+    object-fit: cover;
+    width:200px;
+    height:200px;
+    position: absolute;
+    
+
+}
