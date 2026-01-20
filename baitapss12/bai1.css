@@ -1,0 +1,137 @@
+/* --- THIẾT LẬP CƠ BẢN --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* --- STYLE CHO HEADER (GIAO DIỆN DESKTOP) --- */
+.header {
+    background-color: #fff;
+    height: 80px;
+    padding: 0 40px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* Bóng đổ nhẹ dưới header */
+    
+    /* FLEXBOX: Căn chỉnh 3 phần (Logo - Menu - Button) */
+    display: flex;
+    justify-content: space-between; /* Dàn đều sang 2 bên */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    position: relative;
+}
+
+/* 1. Logo */
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #5e54ac; /* Màu tím giống ảnh */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* 2. Menu Navigation */
+.nav-list {
+    display: flex; /* Xếp ngang các link */
+    list-style: none;
+    gap: 30px; /* Khoảng cách giữa các mục menu */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #1a73e8; /* Hover màu xanh */
+}
+
+/* 3. Button "Bắt đầu ngay" */
+.btn-primary, .btn-mobile-only {
+    background-color: #1a73e8; /* Màu xanh dương */
+    color: white;
+    padding: 10px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #1557b0;
+}
+
+/* Ẩn các thành phần Mobile khi ở trên Desktop */
+.nav-input { display: none; } /* Checkbox luôn ẩn */
+.hamburger-btn { display: none; } /* Nút 3 gạch ẩn */
+.btn-mobile-only { display: none; } /* Nút trong menu ẩn */
+
+/* --- RESPONSIVE: TABLET & MOBILE (Media Query) --- */
+/* Khi màn hình nhỏ hơn 992px (Tablet dọc & Mobile) */
+@media (max-width: 992px) {
+    
+    /* Hiện nút Hamburger */
+    .hamburger-btn {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+    }
+    
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #333;
+    }
+
+    /* Ẩn nút "Bắt đầu ngay" gốc đi (để đưa vào trong menu) */
+    .cta-group .btn-primary {
+        display: none;
+    }
+
+    /* Tùy chỉnh Menu Dropdown */
+    .navbar {
+        position: absolute;
+        top: 100%; /* Đẩy menu xuống ngay dưới header */
+        right: 0;
+        width: 100%; /* Hoặc để 250px nếu muốn menu dạng trượt bên phải */
+        background-color: white;
+        border-top: 1px solid #eee;
+        
+        /* Mặc định ẩn menu đi */
+        display: none; 
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    }
+
+    /* Chuyển danh sách menu thành dọc */
+    .nav-list {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* Hiện nút Button trong menu mobile */
+    .btn-mobile-only {
+        display: inline-block;
+        width: 80%; /* Nút dài ra cho dễ bấm trên đt */
+        text-align: center;
+    }
+
+    /* LOGIC ĐÓNG MỞ MENU (CSS Thuần) */
+    /* Khi checkbox được check -> Tìm thẻ .navbar nằm ngay sau nó và hiện lên */
+    .nav-input:checked ~ .navbar {
+        display: flex;
+    }
+}
